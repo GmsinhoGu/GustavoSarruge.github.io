@@ -1,40 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;/* Define a fonte padrão para todas as páginas */
     margin: 0;
     padding: 0;
-    background-color: #425fd1;
+    background-color: #425fd1;/* Define uma cor de fundo */
   }
-
+/* Cabeçalho e o menu de navegação */
   header {
     background-color: #09123e;
     color: white;
     padding: 15px 0;
     text-align: center;
   }
-
+/* Remove as bolinhas do menu e o preenchimento */
   nav ul {
-    list-style-type: none;
+    list-style-type: none;/* Remove o estilo da lista */
     padding: 0;
   }
-
+/* Estilo para os itens do menu */
   nav ul li {
     display: inline;
     margin-right: 20px;
   }
-
+/* Estilo para os links do menu */
   nav ul li a {
     color: white;
     text-decoration: none;
   }
-
+/* Estilo principal da página */
   main {
     padding: 20px;
   }
-
+/* Estiliza o formulário de contato */
   form {
     margin-top: 20px;
   }
-
+/* Estilo para os campos de texto */
   input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 10px;
